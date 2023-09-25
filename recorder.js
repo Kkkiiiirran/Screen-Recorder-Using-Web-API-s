@@ -51,7 +51,7 @@ async function startVideoRecording() {
         showing.classList.remove("d-none");
         downloadR.classList.add("dissabled");
         startR.classList.add("dissabled");
-        stopR.classList.add("dissabled");
+        stopR.classList.remove("dissabled");
         format.classList.remove("dissabled");
 
 
@@ -112,4 +112,3 @@ format.addEventListener("change", changeFormat);
 downloadR.addEventListener("click", downloadVideoRecording);
 stopR.addEventListener("click", stopVideoRecording);
 
-//why is the startVideoRecording() not working ? //
