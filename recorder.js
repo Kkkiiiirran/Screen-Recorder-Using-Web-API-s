@@ -72,9 +72,9 @@ async function changeFormat(e) {
 
 async function stopVideoRecording() {
 
-    if(mediaRecorder && mediaRecorder.state !== "inactive") { //is there a error 
+    if(mediaRecorder && mediaRecorder.state !== "inactive") { //
         mediaRecorder.stop();
-        videoRecording.classList.remove("d-none");
+        videoRecording.classList.remove("d-none"); 
         showing.classList.add("d-none");
         downloadR.classList.remove("dissabled");
         startR.classList.remove("dissabled");
